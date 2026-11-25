@@ -6,6 +6,7 @@ Los archivos descargados se guardan en `datos/crudos/` sin modificarlos.
 | ID | Fuente | Entidad | URL | Formato | Fecha de consulta | Archivo en `datos/crudos/` | Uso en el proyecto |
 |---|---|---|---|---|---|---|---|
 | F01 | Plan Municipal de Desarrollo "El Rosal Necesita el Cambio" (Acuerdo 003 del 31 de mayo de 2024) | Concejo Municipal de El Rosal | https://mapas.cundinamarca.gov.co/documents/3336682c835b49d4bb200dd8872c593c | PDF escaneado (81 páginas) | 2026-11-25 | `pdm_el_rosal_2024_2027.pdf` | Metas de producto (`datos/manuales/metas_seleccionadas.csv`) |
+| F03 | Relative Oceanic Niño Index (RONI), ERSSTv6, base 1991-2020, media móvil de 3 meses | NOAA Climate Prediction Center | https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt | Texto (columnas `SEAS YR ANOM`) | 2026-11-25 | `noaa_roni_2026-11-25.txt` | Estado de El Niño (índice oficial de NOAA desde febrero de 2026) |
 | F02 | Categorización de municipios, vigencia 2025 | Gobernación de Cundinamarca | https://www.cundinamarca.gov.co/wcm/connect/dd0c54ed-c7c8-443d-9292-fac80901a6f5/Categorizaci%C3%B3n+2025.pdf | PDF | 2026-11-25 | (no descargado) | Confirma que El Rosal es categoría 6ª (Decreto 083 del 8 de octubre de 2024) |
 
 ## Observaciones sobre las fuentes
@@ -16,6 +17,10 @@ Los archivos descargados se guardan en `datos/crudos/` sin modificarlos.
 - **F01:** el PDF es un escaneo sin texto. Las metas se transcribieron a mano en
   `datos/manuales/metas_seleccionadas.csv`, indicando la página del PDF de cada una.
 - **F02:** falta confirmar la categoría para la vigencia 2026.
+- **F03:** según NOAA, hay condición de El Niño cuando el RONI es **mayor que +0,5 °C**,
+  y se considera episodio cuando se cumple durante al menos **5 temporadas consecutivas**.
+  Los valores recientes son estimaciones y pueden cambiar hasta dos meses después de
+  publicados. Por eso el nombre del archivo lleva la fecha de descarga.
 
 ## Archivos de `datos/manuales/`
 

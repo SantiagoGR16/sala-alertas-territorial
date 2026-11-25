@@ -125,6 +125,7 @@ pérdida de cosechas). No la genera el LLM en cada ejecución.
 | 25 nov 2026 | Base de datos | **SQLite** | Viene con Python, es un solo archivo y sus llaves foráneas garantizan que ninguna cifra quede sin fuente |
 | 25 nov 2026 | Entorno de Python | **`.venv` + pip** | Ya funciona; no es semana para estrenar herramientas |
 | 25 nov 2026 | Datos crudos | **Se versionan en GitHub** (`datos/crudos/`); la base SQLite no | Cualquiera puede reproducir y verificar cada cifra aunque la fuente original cambie o desaparezca |
+| 25 nov 2026 | Índice de El Niño | **RONI de NOAA** (no ONI) | Es el índice oficial de NOAA desde febrero de 2026 |
 | 25 nov 2026 | Proveedor LLM | **Solo Claude, con un único punto de llamada** | Sin trabajo extra para DeepSeek; el punto único permite controlar el presupuesto y cambiar de proveedor tocando un solo archivo |
 
 Alternativas descartadas: Streamlit (no se reutiliza al pasar a Angular), Angular desde ya
