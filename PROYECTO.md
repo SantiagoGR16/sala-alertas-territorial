@@ -169,3 +169,23 @@ Alternativas descartadas: Streamlit (no se reutiliza al pasar a Angular), Angula
 - Los datos reales de seguimiento de metas no son públicos: se usan avances simulados.
 - El plazo de la beta es corto: se prioriza el motor y la trazabilidad sobre la estética.
 - La relación entre El Niño y cada meta es un juicio experto y debe revisarlo una persona.
+
+## 12. Bitácora
+
+Registro de la colaboración con la IA: qué se pidió, qué propuso, qué decidí y qué se corrigió.
+
+### 25 de noviembre de 2026
+
+| Qué le pedí | Qué hizo la IA | Qué decidí yo | Qué corregí |
+|-------------|----------------|---------------|-------------|
+| Actuar como mentor y proponer un plan por fases, sin escribir código | Hizo 8 preguntas, propuso 5 fases y detectó un `.txt` con la API key en la carpeta | Aprobé el plan y elegí El Rosal como piloto | Saqué de la carpeta el archivo con la API key |
+| Beta para el viernes con dashboard en Angular | Advirtió que Angular no alcanzaba para el viernes; propuso JSON + HTML estático, reutilizable después por Angular | JSON + HTML estático (A1), SQLite (B1), `.venv` con pip | Moví Angular a la v2 |
+| Crear `PROYECTO.md` | Lo redactó y dejó la sección 10 para que yo la escribiera | Escribí 4 puntos sobre lo que no delego a una IA | La IA me señaló 3 mejoras: SECOP a la v2, sumar la tabla meta ↔ amenaza y decir en qué sí ayuda la IA; acepté que las aplicara |
+| Crear `CLAUDE.md` | Pidió mi aprobación antes de crearlo, por ser configuración de Claude | Lo aprobé | — |
+| Usar solo Claude, sin DeepSeek | Presentó 3 opciones y recomendó un único punto de llamada al LLM | Opción 1: solo Claude, con un punto único | Se actualizaron `PROYECTO.md` y `CLAUDE.md` |
+| Configurar git y `.env.example` | Me guió en `git init` y el `.gitignore`, y creó la plantilla `.env.example` | Hice el `git init` y amplié el `.gitignore` | **Puse por error mi API key real en `.env.example`.** La IA lo detectó antes del commit; roté la key y dejé la plantilla vacía |
+| Subir el repo a GitHub | Detectó que los commits llevaban mi correo personal y propuso usar el correo privado de GitHub | Usar el correo privado (noreply) | GitHub bloqueó el primer push; la IA reescribió los 2 commits con el correo privado antes de subirlos |
+| Estructura de carpetas | Propuso carpetas por fase del plan | Aprobé la estructura y subir los datos crudos a GitHub | — |
+| Mi primer código: `config.py` | Me dio los requisitos y pistas, sin la solución | Usé `.parents[1]` para llegar a la raíz | La IA revisó: funciona; faltaba una línea vacía al final |
+| Buscar el plan de desarrollo, la categoría y los datos de El Niño | Encontró el plan (Acuerdo 003 de 2024), la categoría 6ª y que NOAA cambió el ONI por el RONI | Descargué el PDF del plan y elegí el RONI | La IA notó que el plan dice "2024-2028"; se registró tal cual con una observación |
+| Proponer metas sensibles a El Niño | Leyó el PDF escaneado y propuso 15 metas, separando el riesgo de **ejecución** del de **urgencia** | Validé las 15 metas y los dos tipos de riesgo | La IA corrigió su propio resumen de la meta 127 ("aumentar **a** 70 L/s") al transcribir desde la fuente |
