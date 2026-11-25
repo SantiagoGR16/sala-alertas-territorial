@@ -26,8 +26,8 @@ gestión del riesgo o salud se atrasan y la reacción llega tarde.
 ## 3. Municipio piloto
 
 - **El Rosal, Cundinamarca** (Sabana Occidente, Altiplano Cundiboyacense).
-- **Por verificar:** que su categoría sea 5 o 6, según la categorización oficial vigente.
-  Si no cumple, se elige otro municipio de la misma subregión.
+- **Categoría 6ª** (vigencia 2025, Decreto 083 del 8 de octubre de 2024). Fuente F02 en
+  `docs/fuentes.md`. Falta confirmar la vigencia 2026.
 
 ## 4. Alcance
 
@@ -124,6 +124,7 @@ pérdida de cosechas). No la genera el LLM en cada ejecución.
 | 25 nov 2026 | Interfaz de la beta | **JSON + HTML estático** | Un solo lenguaje y llega a tiempo. El JSON es el contrato de datos que reutilizará Angular en la v2 |
 | 25 nov 2026 | Base de datos | **SQLite** | Viene con Python, es un solo archivo y sus llaves foráneas garantizan que ninguna cifra quede sin fuente |
 | 25 nov 2026 | Entorno de Python | **`.venv` + pip** | Ya funciona; no es semana para estrenar herramientas |
+| 25 nov 2026 | Datos crudos | **Se versionan en GitHub** (`datos/crudos/`); la base SQLite no | Cualquiera puede reproducir y verificar cada cifra aunque la fuente original cambie o desaparezca |
 | 25 nov 2026 | Proveedor LLM | **Solo Claude, con un único punto de llamada** | Sin trabajo extra para DeepSeek; el punto único permite controlar el presupuesto y cambiar de proveedor tocando un solo archivo |
 
 Alternativas descartadas: Streamlit (no se reutiliza al pasar a Angular), Angular desde ya

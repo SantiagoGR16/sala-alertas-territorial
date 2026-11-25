@@ -1,0 +1,16 @@
+numero_meta,amenaza,tipo_relacion,justificacion,fecha_validacion
+119,Desabastecimiento de agua,ejecucion,"Con menos lluvia baja el caudal de las fuentes; el mantenimiento no garantiza la continuidad del agua",2026-11-25
+121,Desabastecimiento de agua rural,urgencia,"Las veredas sin acueducto dependen de fuentes que se secan primero en sequía",2026-11-25
+127,Desabastecimiento de agua,urgencia,"Ampliar la oferta de agua es crítico cuando las fuentes actuales bajan su caudal",2026-11-25
+128,Sequía,urgencia,"El reservorio es la reserva del municipio para los meses secos",2026-11-25
+129,Sequía,urgencia,"Más almacenamiento amortigua la caída de caudales durante El Niño",2026-11-25
+130,Sequía,urgencia,"El agua subterránea es la alternativa cuando fallan las fuentes superficiales",2026-11-25
+131,Desabastecimiento de agua,urgencia,"Los tanques permiten sostener el servicio cuando el suministro se vuelve intermitente",2026-11-25
+89,Incendio forestal,urgencia,"El Niño aumenta la frecuencia de incendios de cobertura vegetal",2026-11-25
+91,Incendio forestal y sequía,urgencia,"Sin estrategia de respuesta el municipio reacciona tarde a las emergencias del fenómeno",2026-11-25
+92,Calamidad pública,urgencia,"Una declaratoria de calamidad por sequía o incendio exige ayudas inmediatas a los hogares",2026-11-25
+95,Sequía e incendio forestal,ejecucion,"Plantar en temporada seca eleva la mortalidad de los árboles y los incendios pueden destruir lo plantado",2026-11-25
+96,Sequía,urgencia,"Proteger predios de importancia hídrica cobra prioridad cuando el agua escasea",2026-11-25
+171,Pérdida de cosechas,urgencia,"Los productores necesitan asistencia técnica para adaptarse al déficit de lluvias",2026-11-25
+172,Pérdida de cosechas,ejecucion,"Con menor producción hay menos oferta para sostener ferias y mercados campesinos",2026-11-25
+174,Pérdida de cosechas,ejecucion,"Los activos productivos pierden efecto si la sequía reduce la producción",2026-11-25

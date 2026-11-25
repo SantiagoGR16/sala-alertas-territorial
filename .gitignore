@@ -9,3 +9,7 @@ __pycache__/
 *secret*
 *apikey*
 *api_key*
+
+# Base de datos generada por código (se reconstruye desde datos/crudos)
+datos/procesados/*.db
+datos/procesados/*.sqlite
