@@ -1,0 +1,9 @@
+PROPMT BOOTCAMP DÍA 1
+
+Actúa como un entrevistador que quiere entender un problema de mi trabajo.
+No me propongas soluciones todavía.
+Hazme una pregunta a la vez, máximo ocho, para entender:
+quién tiene el problema, cuándo ocurre, cuánto cuesta hoy y cómo se resuelve ahora.
+Al final, resume el problema en tres frases y dime qué parte no te quedó clara.
+
+Mi problema, en pocas palabras, es: ___

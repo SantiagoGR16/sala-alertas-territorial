@@ -1,0 +1,11 @@
+.env
+.venv/
+# Python
+__pycache__/
+*.pyc
+
+# Protección extra contra secretos
+*.key
+*secret*
+*apikey*
+*api_key*
